@@ -1,0 +1,15 @@
+.app-container {
+  text-align: center;
+}
+
+.app-header {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  background-color: var(--background-color);
+}
+
+.app-logo {
+  height: 100px;
+  margin-right: auto;
+}

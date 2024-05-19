@@ -1,0 +1,79 @@
+:root {
+    --primary-color: #03045E;
+    --secondary-color: #90E0EF;
+    --text-color: #ffffff;
+    --background-color: #f0f8ff;
+    --border-radius: 8px;
+  }
+  
+  body {
+    background-color: var(--background-color);
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  h1, h2 {
+    color: var(--primary-color);
+    text-align: center;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  li {
+    background-color: var(--secondary-color);
+    border-radius: var(--border-radius);
+    margin: 10px 0;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: background-color 0.3s;
+  }
+  
+  li:hover {
+    background-color: darken(var(--secondary-color), 10%);
+  }
+  
+  button {
+    background-color: var(--primary-color);
+    color: var(--text-color);
+    border: none;
+    border-radius: var(--border-radius);
+    padding: 8px 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin: 5px;  /* Added margin for spacing between buttons */
+  }
+  
+  button:hover {
+    background-color: lighten(var(--primary-color), 10%);
+  }
+  
+  button:disabled {
+    background-color: grey;
+    cursor: not-allowed;
+  }
+  
+  .error-message {
+    color: red;
+    text-align: center;
+  }
+  
+  .advice {
+    white-space: pre-wrap;
+    background-color: var(--secondary-color);
+    padding: 10px;
+    border-radius: var(--border-radius);
+    margin-top: 20px;
+  }
+  
