@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "../med-backend"
+		},
+		{
+			"path": "../med-frontend"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "med-backend"
+	}
+}
